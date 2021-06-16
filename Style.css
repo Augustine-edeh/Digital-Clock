@@ -1,0 +1,109 @@
+* {
+
+      margin: 0;
+
+      padding: 0;
+
+    }
+
+    
+
+    html, body {
+
+      /* Another way to center the clock widget */
+
+      
+
+      
+
+     /* display: flex;
+
+      justify-content: center;
+
+      align-items: center; */
+
+      background-color: black;
+
+      display: grid;
+
+      place-content: center;
+
+      margin: 0px;
+
+      padding: 0px;
+
+      border: 0px;
+
+      height: 100%;
+
+    }
+
+    
+
+    .container {
+
+      display: ;
+
+      position: absolute;
+
+      top: 0px;
+
+      left: 0px;
+
+      background-color: black;
+
+      margin: 0px;
+
+      padding: 4px;
+
+      width: 47px;
+
+      height: auto;
+
+    }
+
+    
+
+    .sect {
+
+      width: 40px;
+
+      height: 3.5px;
+
+      background-color: white;
+
+      margin: 4px;
+
+      border-radius: 5px;
+
+    }
+
+    .main {
+
+      padding: 5px;
+
+      border: 1px solid white;
+
+      color: white;
+
+      font-family: arial;
+
+      text-align: center;
+
+    }
+
+    
+
+    #clock {
+
+      font-size: 3.5rem;
+
+    }
+
+    #date {
+
+      color: white;
+
+      font-size: 11px;
+
+    }
